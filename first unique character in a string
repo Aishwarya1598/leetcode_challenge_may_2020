@@ -1,7 +1,7 @@
 class Solution {
 public:
     int firstUniqChar(string s) {
-      /* pair<int,int> a[256];
+       pair<int,int> a[256];
         for(int i=0;i<s.size();i++)
         {
             a[s[i]].first+=1;
@@ -18,7 +18,7 @@ public:
         }
         if(flag==1)
         return res;
-        return -1;*/
+        return -1;
         
         (OR)
         
