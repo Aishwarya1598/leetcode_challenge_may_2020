@@ -24,9 +24,10 @@ public:
         return nums[l];
     }
 };
-
-Explaination:-
---------------
+(OR) 
+/* simple Xor operation can also be used */
+Explaination of above program:-
+-------------------------------
 /*Here we have used binary search, generally we can observe that if the first occurrence of the element is at even index then the next occurence of it
 is at odd index and vice versa, So, in this problem we are checking the index of the mid:-
 ==> if the mid is even and if the elelment at mid and mid+1 are same then the element required 
